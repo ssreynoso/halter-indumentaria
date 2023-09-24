@@ -1,8 +1,8 @@
 import { ClothesCarrouselSection } from '@/components/clothes-carousel-section'
 import { Footer } from '@/components/footer'
 import { OurStorySection } from '@/components/our-story-section'
-import { AboutSection } from '@/pages/components/about-section'
-import { MainSection } from '@/pages/components/main-section'
+import { AboutSection } from '@/components/about-section'
+import { MainSection } from '@/components/main-section'
 
 const Home = () => {
     return (
