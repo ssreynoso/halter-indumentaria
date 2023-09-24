@@ -1,0 +1,11 @@
+.footer-item {
+    @apply flex flex-col p-8 relative;
+}
+
+.footer-item h3 {
+    @apply text-2xl font-bold mb-4;
+}
+
+.footer-item ul {
+    @apply flex flex-col gap-2;
+}
