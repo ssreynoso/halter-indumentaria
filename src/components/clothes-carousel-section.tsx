@@ -1,32 +1,33 @@
 import { Separator } from '@/components/ui/separator'
 import { Carousel } from './ui/carousel'
+import { getTShirts } from '@/services/clothes'
+import { ProductItem } from './product-item'
 
-export const ClothesCarrouselSection = () => {
+export const ClothesCarrouselSection = async () => {
+    const clothes = await getTShirts()
+
     return (
         <>
             <Separator />
             <section id='about' className="my-12 flex flex-col justify-center items-center gap-12 w-full max-w-7xl mx-auto">
                 <Carousel
                     containerClassName='border border-white'
-                    className='h-[300px] [&>*]:border-r [&>*]:border-r-white [&>*]:basis-1/4 [&>*]:p-4'
+                    className='h-[300px] [&>*]:border-r [&>*]:border-r-white [&>*]:basis-1/4'
                     options={{
                         loop: true,
-                        dragFree: true
+                        dragFree: false
                     }}
                     autoplayOptions={{
-                        delay: 2000,
+                        active: true,
+                        delay: 4000,
+                        stopOnMouseEnter: true,
                         stopOnInteraction: false,
                         stopOnLastSnap: false,
                     }}
                 >
-                    <div><div className='w-full h-full bg-red-50'>Slide 1</div></div>
-                    <div><div className='w-full h-full bg-red-100'>Slide 2</div></div>
-                    <div><div className='w-full h-full bg-red-200'>Slide 3</div></div>
-                    <div><div className='w-full h-full bg-red-300'>Slide 1</div></div>
-                    <div><div className='w-full h-full bg-red-400'>Slide 2</div></div>
-                    <div><div className='w-full h-full bg-red-500'>Slide 3</div></div>
-                    <div><div className='w-full h-full bg-red-500'>Slide 3</div></div>
-                    <div><div className='w-full h-full bg-red-500'>Slide 3</div></div>
+                    { clothes.map(item => (
+                        <ProductItem key={item.images[0]} item={item} />
+                    ))}
                 </Carousel>
             </section>
         </>

@@ -1,0 +1,532 @@
+{
+    "products": {
+        "hombre": {
+            "bermudas": [
+                {
+                    "id": "azul",
+                    "name": "Azul",
+                    "images": ["/halter/hombre/bermudas/azul1.jpg", "/halter/hombre/bermudas/azul2.jpg"]
+                },
+                {
+                    "id": "jean",
+                    "name": "Jean",
+                    "images": ["/halter/hombre/bermudas/jean1.jpg", "/halter/hombre/bermudas/jean2.jpg"]
+                },
+                { "id": "negra", "name": "Negra", "images": ["/halter/hombre/bermudas/negra1.jpg"] },
+                {
+                    "id": "underarmour-azul",
+                    "name": "Under Armour Azul",
+                    "images": ["/halter/hombre/bermudas/underarmour-azul1.jpg"]
+                }
+            ],
+            "mallas": [
+                { "id": "celeste", "name": "Celeste", "images": ["/halter/hombre/mallas/celeste.jpg"] },
+                {
+                    "id": "amarillo-fluo",
+                    "name": "Amarillo Fluo",
+                    "images": ["/halter/hombre/mallas/amarillo-fluo.jpg"]
+                },
+                { "id": "coral", "name": "Coral", "images": ["/halter/hombre/mallas/coral.jpg"] },
+                { "id": "marron", "name": "Marron", "images": ["/halter/hombre/mallas/marron.jpg"] },
+                { "id": "rojo", "name": "Rojo", "images": ["/halter/hombre/mallas/rojo.jpg"] }
+            ],
+            "remeras": [
+                {
+                    "id": "abercrombie-azul",
+                    "name": "Abercrombie Azul",
+                    "images": [
+                        "/halter/hombre/remeras/aber-azul1.jpg",
+                        "/halter/hombre/remeras/aber-azul2.jpg",
+                        "/halter/hombre/remeras/aber-azul3.jpg"
+                    ]
+                },
+                {
+                    "id": "abercrombie-blanco",
+                    "name": "Abercrombie Blanco",
+                    "images": [
+                        "/halter/hombre/remeras/aber-blanco1.jpg",
+                        "/halter/hombre/remeras/aber-blanco2.jpg",
+                        "/halter/hombre/remeras/aber-blanco3.jpg"
+                    ]
+                },
+                {
+                    "id": "abercrombie-bordo",
+                    "name": "Abercrombie Bordo",
+                    "images": [
+                        "/halter/hombre/remeras/aber-bordo1.jpg",
+                        "/halter/hombre/remeras/aber-bordo2.jpg",
+                        "/halter/hombre/remeras/aber-bordo3.jpg"
+                    ]
+                },
+                {
+                    "id": "abercrombie-gris-a",
+                    "name": "Abercrombie Gris A",
+                    "images": [
+                        "/halter/hombre/remeras/aber-gris1.jpg",
+                        "/halter/hombre/remeras/aber-gris2.jpg",
+                        "/halter/hombre/remeras/aber-gris3.jpg"
+                    ]
+                },
+                {
+                    "id": "abercrombie-gris-b",
+                    "name": "Abercrombie Gris B",
+                    "images": [
+                        "/halter/hombre/remeras/aber-grisb1.jpg",
+                        "/halter/hombre/remeras/aber-grisb2.jpg",
+                        "/halter/hombre/remeras/aber-grisb3.jpg"
+                    ]
+                },
+                {
+                    "id": "abercrombie-gris-c",
+                    "name": "Abercrombie Gris C",
+                    "images": [
+                        "/halter/hombre/remeras/aber-grisc1.jpg",
+                        "/halter/hombre/remeras/aber-grisc2.jpg",
+                        "/halter/hombre/remeras/aber-grisc3.jpg"
+                    ]
+                },
+                {
+                    "id": "abercrombie-roja",
+                    "name": "Abercrombie Roja",
+                    "images": [
+                        "/halter/hombre/remeras/aber-roja.jpg",
+                        "/halter/hombre/remeras/aber-roja2.jpg",
+                        "/halter/hombre/remeras/aber-roja3.jpg"
+                    ]
+                },
+                {
+                    "id": "abercrombie-rosa",
+                    "name": "Abercrombie Rosa",
+                    "images": ["/halter/hombre/remeras/aber-rosa1.jpg", "/halter/hombre/remeras/aber-rosa2.jpg"]
+                },
+                {
+                    "id": "amarilla",
+                    "name": "Amarilla",
+                    "images": [
+                        "/halter/hombre/remeras/amarilla1.jpg",
+                        "/halter/hombre/remeras/amarilla2.jpg",
+                        "/halter/hombre/remeras/amarilla3.jpg"
+                    ]
+                },
+                {
+                    "id": "azul",
+                    "name": "Azul",
+                    "images": ["/halter/hombre/remeras/azul.jpg", "/halter/hombre/remeras/azul2.jpg"]
+                },
+                {
+                    "id": "gris",
+                    "name": "Gris",
+                    "images": [
+                        "/halter/hombre/remeras/gris1.jpg",
+                        "/halter/hombre/remeras/gris2.jpg",
+                        "/halter/hombre/remeras/gris3.jpg"
+                    ]
+                },
+                {
+                    "id": "hollister-a",
+                    "name": "Hollister A",
+                    "images": [
+                        "/halter/hombre/remeras/hollister-a1.jpg",
+                        "/halter/hombre/remeras/hollister-a2.jpg",
+                        "/halter/hombre/remeras/hollister-a3.jpg"
+                    ]
+                },
+                {
+                    "id": "hollister-b",
+                    "name": "Hollister B",
+                    "images": [
+                        "/halter/hombre/remeras/hollister-b1.jpg",
+                        "/halter/hombre/remeras/hollister-b2.jpg",
+                        "/halter/hombre/remeras/hollister-b3.jpg"
+                    ]
+                },
+                {
+                    "id": "hollister-c",
+                    "name": "Hollister C",
+                    "images": [
+                        "/halter/hombre/remeras/hollister-c1.jpg",
+                        "/halter/hombre/remeras/hollister-c2.jpg",
+                        "/halter/hombre/remeras/hollister-c3.jpg"
+                    ]
+                },
+                {
+                    "id": "hollister-d",
+                    "name": "Hollister D",
+                    "images": [
+                        "/halter/hombre/remeras/hollister-d1.jpg",
+                        "/halter/hombre/remeras/hollister-d2.jpg",
+                        "/halter/hombre/remeras/hollister-d3.jpg"
+                    ]
+                },
+                {
+                    "id": "lacoste-blanca",
+                    "name": "Lacoste Blanca",
+                    "images": [
+                        "/halter/hombre/remeras/lacoste-blanca1.jpg",
+                        "/halter/hombre/remeras/lacoste-blanca2.jpg"
+                    ]
+                },
+                {
+                    "id": "lacoste-bordo",
+                    "name": "Lacoste Bordo",
+                    "images": [
+                        "/halter/hombre/remeras/lacoste-bordo.jpg",
+                        "/halter/hombre/remeras/lacoste-bordo2.jpg",
+                        "/halter/hombre/remeras/lacoste-bordo3.jpg"
+                    ]
+                },
+                {
+                    "id": "lacoste-negra",
+                    "name": "Lacoste Negra",
+                    "images": [
+                        "/halter/hombre/remeras/lacoste-negra1.jpg",
+                        "/halter/hombre/remeras/lacoste-negra2.jpg",
+                        "/halter/hombre/remeras/lacoste-negra3.jpg"
+                    ]
+                },
+                {
+                    "id": "penguin-blanca",
+                    "name": "Penguin Blanca",
+                    "images": [
+                        "/halter/hombre/remeras/peng-blanca1.jpg",
+                        "/halter/hombre/remeras/peng-blanca2.jpg",
+                        "/halter/hombre/remeras/peng-blanca3.jpg"
+                    ]
+                },
+                {
+                    "id": "penguin-bordo",
+                    "name": "Penguin Bordo",
+                    "images": [
+                        "/halter/hombre/remeras/peng-bordo.jpg",
+                        "/halter/hombre/remeras/peng-bordo2.jpg",
+                        "/halter/hombre/remeras/peng-bordo3.jpg"
+                    ]
+                },
+                {
+                    "id": "penguin-gris",
+                    "name": "Penguin Gris",
+                    "images": [
+                        "/halter/hombre/remeras/peng-gris.jpg",
+                        "/halter/hombre/remeras/peng-gris2.jpg",
+                        "/halter/hombre/remeras/peng-gris3.jpg"
+                    ]
+                },
+                {
+                    "id": "penguin-negra",
+                    "name": "Penguin Negra",
+                    "images": [
+                        "/halter/hombre/remeras/peng-negra1.jpg",
+                        "/halter/hombre/remeras/peng-negra2.jpg",
+                        "/halter/hombre/remeras/peng-negra3.jpg"
+                    ]
+                },
+                {
+                    "id": "polo-blanca",
+                    "name": "Polo Blanca",
+                    "images": [
+                        "/halter/hombre/remeras/polo-blanca1.jpg",
+                        "/halter/hombre/remeras/polo-blanca2.jpg",
+                        "/halter/hombre/remeras/polo-blanca3.jpg"
+                    ]
+                },
+                {
+                    "id": "polo-bordo",
+                    "name": "Polo Bordo",
+                    "images": [
+                        "/halter/hombre/remeras/polo-bordo1.jpg",
+                        "/halter/hombre/remeras/polo-bordo2.jpg",
+                        "/halter/hombre/remeras/polo-bordo3.jpg"
+                    ]
+                },
+                {
+                    "id": "polo-gris",
+                    "name": "Polo Gris",
+                    "images": ["/halter/hombre/remeras/polo-gris1.jpg", "/halter/hombre/remeras/polo-gris2.jpg"]
+                },
+                {
+                    "id": "tommy-negra",
+                    "name": "Tommy Negra",
+                    "images": [
+                        "/halter/hombre/remeras/tommy-negra1.jpg",
+                        "/halter/hombre/remeras/tommy-negra2.jpg",
+                        "/halter/hombre/remeras/tommy-negra3.jpg"
+                    ]
+                },
+                {
+                    "id": "underarmour-blanca",
+                    "name": "Under Armour Blanca",
+                    "images": ["/halter/hombre/remeras/under-blanca.jpg"]
+                },
+                {
+                    "id": "underarmour-bordo",
+                    "name": "Under Armour Bordo",
+                    "images": [
+                        "/halter/hombre/remeras/under-bordo1.jpg",
+                        "/halter/hombre/remeras/under-bordo2.jpg",
+                        "/halter/hombre/remeras/under-bordo3.jpg"
+                    ]
+                },
+                {
+                    "id": "underarmour-negra",
+                    "name": "Under Armour Negra",
+                    "images": [
+                        "/halter/hombre/remeras/under-negra1.jpg",
+                        "/halter/hombre/remeras/under-negra2.jpg",
+                        "/halter/hombre/remeras/under-negra3.jpg"
+                    ]
+                },
+                {
+                    "id": "underarmour-negra-b",
+                    "name": "Under Armour Negra B",
+                    "images": [
+                        "/halter/hombre/remeras/under-negrab1.jpg",
+                        "/halter/hombre/remeras/under-negrab2.jpg",
+                        "/halter/hombre/remeras/under-negrab3.jpg"
+                    ]
+                }
+            ],
+            "buzos": [
+                {
+                    "id": "blanco",
+                    "name": "Blanco",
+                    "images": [
+                        "/halter/hombre/buzos/blanco1.jpg",
+                        "/halter/hombre/buzos/blanco2.jpg",
+                        "/halter/hombre/buzos/blanco3.jpg"
+                    ]
+                },
+                {
+                    "id": "gris",
+                    "name": "Gris",
+                    "images": [
+                        "/halter/hombre/buzos/gris1.jpg",
+                        "/halter/hombre/buzos/gris2.jpg",
+                        "/halter/hombre/buzos/gris3.jpg"
+                    ]
+                },
+                {
+                    "id": "gris-b",
+                    "name": "GrisB",
+                    "images": [
+                        "/halter/hombre/buzos/grisb1.jpg",
+                        "/halter/hombre/buzos/grisb2.jpg",
+                        "/halter/hombre/buzos/grisb3.jpg"
+                    ]
+                },
+                {
+                    "id": "gris-cap",
+                    "name": "GrisCap",
+                    "images": [
+                        "/halter/hombre/buzos/gris-cap1.jpg",
+                        "/halter/hombre/buzos/gris-cap2.jpg",
+                        "/halter/hombre/buzos/gris-cap3.jpg"
+                    ]
+                },
+                {
+                    "id": "negro",
+                    "name": "Negro",
+                    "images": [
+                        "/halter/hombre/buzos/negro1.jpg",
+                        "/halter/hombre/buzos/negro2.jpg",
+                        "/halter/hombre/buzos/negro3.jpg"
+                    ]
+                },
+                {
+                    "id": "negro-b",
+                    "name": "NegroB",
+                    "images": [
+                        "/halter/hombre/buzos/negrob1.jpg",
+                        "/halter/hombre/buzos/negrob2.jpg",
+                        "/halter/hombre/buzos/negrob3.jpg"
+                    ]
+                },
+                {
+                    "id": "rosa",
+                    "name": "Rosa",
+                    "images": [
+                        "/halter/hombre/buzos/rosa1.jpg",
+                        "/halter/hombre/buzos/rosa2.jpg",
+                        "/halter/hombre/buzos/rosa3.jpg"
+                    ]
+                }
+            ],
+            "ropaInterior": [
+                {
+                    "id": "blanca",
+                    "name": "Blanca",
+                    "images": [
+                        "/halter/hombre/ropa-interior/blanca1.jpg",
+                        "/halter/hombre/ropa-interior/blanca2.jpg",
+                        "/halter/hombre/ropa-interior/blanca3.jpg"
+                    ]
+                },
+                {
+                    "id": "negra",
+                    "name": "Negra",
+                    "images": [
+                        "/halter/hombre/ropa-interior/negra1.jpg",
+                        "/halter/hombre/ropa-interior/negra2.jpg",
+                        "/halter/hombre/ropa-interior/negra3.jpg"
+                    ]
+                }
+            ],
+            "sweatters": [
+                {
+                    "id": "gris",
+                    "name": "Gris",
+                    "images": ["/halter/hombre/sweatters/gris1.jpg", "/halter/hombre/sweatters/gris2.jpg"]
+                },
+                {
+                    "id": "gris-b",
+                    "name": "Gris B",
+                    "images": ["/halter/hombre/sweatters/grisb1.jpg", "/halter/hombre/sweatters/grisb2.jpg"]
+                },
+                {
+                    "id": "negro",
+                    "name": "Negro",
+                    "images": ["/halter/hombre/sweatters/negro1.jpg", "/halter/hombre/sweatters/negro2.jpg"]
+                },
+                {
+                    "id": "zinc",
+                    "name": "Zinc",
+                    "images": ["/halter/hombre/sweatters/zinc1.jpg", "/halter/hombre/sweatters/zinc2.jpg"]
+                }
+            ],
+            "pantalones": [
+                {
+                    "id": "gris",
+                    "name": "Gris",
+                    "images": [
+                        "/halter/hombre/pantalones/gris-a1.jpg",
+                        "/halter/hombre/pantalones/gris-a2.jpg",
+                        "/halter/hombre/pantalones/gris-a3.jpg",
+                        "/halter/hombre/pantalones/gris-a4.jpg"
+                    ]
+                },
+                {
+                    "id": "gris-b",
+                    "name": "Gris B",
+                    "images": [
+                        "/halter/hombre/pantalones/gris-b1.jpg",
+                        "/halter/hombre/pantalones/gris-b2.jpg",
+                        "/halter/hombre/pantalones/gris-b3.jpg",
+                        "/halter/hombre/pantalones/gris-b4.jpg"
+                    ]
+                },
+                {
+                    "id": "jean",
+                    "name": "Jean",
+                    "images": [
+                        "/halter/hombre/pantalones/jean-a1.jpg",
+                        "/halter/hombre/pantalones/jean-a2.jpg",
+                        "/halter/hombre/pantalones/jean-a3.jpg"
+                    ]
+                },
+                {
+                    "id": "jean-b",
+                    "name": "Jean B",
+                    "images": [
+                        "/halter/hombre/pantalones/jean-b1.jpg",
+                        "/halter/hombre/pantalones/jean-b2.jpg",
+                        "/halter/hombre/pantalones/jean-b3.jpg"
+                    ]
+                },
+                {
+                    "id": "jean-c",
+                    "name": "Jean C",
+                    "images": [
+                        "/halter/hombre/pantalones/jean-c1.jpg",
+                        "/halter/hombre/pantalones/jean-c2.jpg",
+                        "/halter/hombre/pantalones/jean-c3.jpg",
+                        "/halter/hombre/pantalones/jean-c4.jpg"
+                    ]
+                },
+                {
+                    "id": "jean-d",
+                    "name": "Jean D",
+                    "images": [
+                        "/halter/hombre/pantalones/jean-d1.jpg",
+                        "/halter/hombre/pantalones/jean-d2.jpg",
+                        "/halter/hombre/pantalones/jean-d3.jpg"
+                    ]
+                },
+                {
+                    "id": "jogging",
+                    "name": "Jogging",
+                    "images": [
+                        "/halter/hombre/pantalones/jogging1.jpg",
+                        "/halter/hombre/pantalones/jogging2.jpg",
+                        "/halter/hombre/pantalones/jogging3.jpg"
+                    ]
+                },
+                {
+                    "id": "jogging-azul",
+                    "name": "Jogging Azul",
+                    "images": [
+                        "/halter/hombre/pantalones/jogging-azul1.jpg",
+                        "/halter/hombre/pantalones/jogging-azul2.jpg",
+                        "/halter/hombre/pantalones/jogging-azul3.jpg"
+                    ]
+                },
+                {
+                    "id": "jogging-negro",
+                    "name": "Negro",
+                    "images": [
+                        "/halter/hombre/pantalones/negro1.jpg",
+                        "/halter/hombre/pantalones/negro2.jpg",
+                        "/halter/hombre/pantalones/negro3.jpg"
+                    ]
+                }
+            ]
+        },
+        "mujer": {
+            "remeras": [
+                {
+                    "id": "blanca",
+                    "name": "Blanca",
+                    "images": ["/halter/mujer/remeras/blanca1.jpg", "/halter/mujer/remeras/blanca2.jpg"]
+                },
+                {
+                    "id": "gris",
+                    "name": "Gris",
+                    "images": ["/halter/mujer/remeras/gris1.jpg", "/halter/mujer/remeras/gris2.jpg"]
+                },
+                {
+                    "id": "negra",
+                    "name": "Negra",
+                    "images": ["/halter/mujer/remeras/negra1.jpg", "/halter/mujer/remeras/negra2.jpg"]
+                },
+                {
+                    "id": "rosa",
+                    "name": "Rosa",
+                    "images": ["/halter/mujer/remeras/rosa1.jpg", "/halter/mujer/remeras/rosa2.jpg"]
+                },
+                {
+                    "id": "zinc",
+                    "name": "Zinc",
+                    "images": ["/halter/mujer/remeras/zinc1.jpg"]
+                }
+            ],
+            "ropaInterior": [
+                {
+                    "id": "blanca",
+                    "name": "Blanca",
+                    "images": [
+                        "/halter/mujer/ropainterior/blanca1.jpg",
+                        "/halter/mujer/ropainterior/blanca2.jpg",
+                        "/halter/mujer/ropainterior/blanca3.jpg"
+                    ]
+                },
+                {
+                    "id": "gris",
+                    "name": "Gris",
+                    "images": [
+                        "/halter/mujer/ropainterior/gris1.jpg",
+                        "/halter/mujer/ropainterior/gris2.jpg",
+                        "/halter/mujer/ropainterior/gris3.jpg"
+                    ]
+                }
+            ]
+        }
+    }
+}

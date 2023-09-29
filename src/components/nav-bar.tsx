@@ -28,7 +28,7 @@ export const NavBar = () => {
     const { value: moved, setFalse: setMovedFalse, setTrue: setMovedTrue } = useBoolean(false)
 
     const navOptions = [
-        { label: 'SHOP', value: '/' },
+        { label: 'SHOP', value: '/shop' },
         { label: 'INFO', value: '/' },
     ]
 
@@ -46,16 +46,19 @@ export const NavBar = () => {
         <nav
             className={cn(
                 'px-4 w-full h-[var(--nav-bar-height)] border-b xl:px-0',
-                'transition-all duration-500 fixed z-50 backdrop-blur-md border-b-transparent',
+                'transition-all duration-500 fixed top-0 z-50 backdrop-blur-md border-b-transparent',
                 moved && 'border-b-white bg-zinc-950'
             )}
         >
             <div className="w-full h-full mx-auto max-w-7xl flex justify-center items-center relative">
                 {/* <Image src='' alt='Logo' className='h-2/3 max-h-10 w-max absolute left-0' /> */}
-                <Button variant='link' className=''>
-                    <Link href='/'><h2 className='text-xl'>Halter</h2></Link>
-                </Button>
                 <NavOptions options={navOptions}/>
+                <Button variant='link' className=''>
+                    <Link href='/'>
+                        {/* <h2 className='text-xl'>Halter</h2> */}
+                        <img className='h-full w-14' src="/logo.jpg" alt="Logo" />
+                    </Link>
+                </Button>
                 <DropdownNavbarMenu options={navOptions} className='xl:hidden' />
                 {/* <ModeToggle className='absolute right-0 hidden xl:inline-flex'/> */}
                 {/* <ChangeTheme /> */}

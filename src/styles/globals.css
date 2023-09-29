@@ -42,7 +42,7 @@
         /*  */
         --background: rgb(9, 9, 11);
         --foreground: rgb(250, 250, 250);
-        
+
         --card: rgb(9, 9, 11);
         --card-foreground: rgb(250, 250, 250);
 
@@ -90,5 +90,14 @@
 
     body {
         @apply bg-background text-foreground;
+    }
+
+    .font-outline-2 {
+        /* -webkit-text-stroke: 2px black; */
+        @apply drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
+    }
+    .font-outline-4 {
+        @apply drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
+        /* -webkit-text-stroke: 4px black; */
     }
 }

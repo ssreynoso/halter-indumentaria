@@ -6,12 +6,12 @@ export const AboutSection = () => {
     return (
         <>
             <Separator />
-            <section id='about' className="my-12 flex flex-col justify-center items-center gap-12">
-                <p className='text-2xl text-center w-3/5'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quas, error harum labore rem
-                    provident recusandae possimus consectetur maiores non.
+            <section id="about" className="my-12 flex flex-col justify-center items-center gap-12">
+                <p className="text-2xl text-center w-3/5">
+                    Comenzá a llenar tu carrito con nuestras remeras, buzos, jeans y muchos mas! Recorda que si superas
+                    $30.000 tenes envio gratis!
                 </p>
-                <Button className="text-xl p-6 rounded-full">Start shopping</Button>
+                <Button className="text-xl p-6 rounded-full">Empieza a comprar</Button>
             </section>
         </>
     )

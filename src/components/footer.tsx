@@ -3,6 +3,8 @@ import { cn } from '@/lib/utils'
 import { GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons'
 import React from 'react'
 import { Separator } from './ui/separator'
+import Link from 'next/link'
+import { Button } from './ui/button'
 
 export const Footer = () => {
     return (
@@ -10,31 +12,50 @@ export const Footer = () => {
             <Separator />
             <footer
                 className={cn(
-                    'w-full max-w-7xl  mx-auto h-[300px] flex [&>div]:basis-1/4',
+                    'w-full max-w-7xl mx-auto h-[250px] flex [&>div]:basis-1/4',
                     '[&>div]:border-r [&>div]:border-r-white'
                 )}
             >
                 <div className='footer-item'>
                     <h3>Newsletter</h3>
-                    <p>form...</p>
+                    {/* <p>form...</p> */}
                 </div>
                 <div className='footer-item'>
                     <h3>Shop</h3>
                     <ul>
-                        <li>Lorem </li>
-                        <li>Lorem, ipsum dolor.</li>
-                        <li>Lorem, ipsum. </li>
+                        <li>
+                            <Button variant={'link'} className='h-4 text-md font-light p-0'>
+                                <Link href='/shop/remeras'>Remeras</Link>
+                            </Button>
+                        </li>
+                        <li>
+                            <Button variant={'link'} className='h-4 text-md font-light p-0'>
+                                <Link href='/shop/pantalones'>Pantalones</Link>
+                            </Button>
+                        </li>
+                        <li>
+                            <Button variant={'link'} className='h-4 text-md font-light p-0'>
+                                <Link href='/shop/ropa-interior'>Ropa Interior</Link>
+                            </Button>
+                        </li>
                     </ul>
                 </div>
                 <div className='footer-item'>
                     <h3>Info</h3>
                     <ul>
-                        <li>Our Story</li>
-                        <li>Preguntas frecuentes</li>
-                        <li>No se que poner</li>
+                        <li>
+                            <Button variant={'link'} className='h-4 text-md font-light p-0'>
+                                <Link href='/'>Nuestra historia</Link>
+                            </Button>
+                        </li>
+                        <li>
+                            <Button variant={'link'} className='h-4 text-md font-light p-0'>
+                                <Link href='/'>Preguntas frecuentes</Link>
+                            </Button>
+                        </li>
                     </ul>
                 </div>
-                <div className='footer-item'>
+                <div className='footer-item border-none'>
                     <h3>Encontranos</h3>
                     <div className='flex gap-2'>
                         <GitHubLogoIcon className='w-8 h-8'/>

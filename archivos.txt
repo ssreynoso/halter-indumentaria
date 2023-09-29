@@ -1,0 +1,14 @@
+archivos.txt
+components.json
+halter
+next.config.js
+next-env.d.ts
+node_modules
+package.json
+package-lock.json
+postcss.config.js
+public
+README.md
+src
+tailwind.config.ts
+tsconfig.json
