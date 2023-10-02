@@ -16,13 +16,27 @@ import {
 } from '@/components/ui/sheet'
 import { MinusIcon, PlusIcon } from '@radix-ui/react-icons'
 import Image from 'next/image'
+import { sendWhatsAppMessage } from '@/lib/whatsapp'
 
 export const Cart = () => {
     const { cartProducts, ChangeQuantity } = useCart()
 
     const finalizarPedido = () => {
-        console.log('pedido finalizado')
-        console.log(cartProducts)
+        try {
+            const number = '5491153470094'
+            let message = 'Hola! Me gustaría realizar esta compra:'
+            for (let i = 0; i < cartProducts.length; i++) {
+                message += `\n\tProducto ${i + 1}: 
+                        Identificador: ${cartProducts[i].product.id}
+                        Categoría: ${cartProducts[i].product.category}
+                        Nombre: ${cartProducts[i].product.name}
+                        Precio: ${cartProducts[i].product.price}
+                        Cantidad: ${cartProducts[i].quantity}`
+            }
+            sendWhatsAppMessage(number, message)
+        } catch(error) {
+            console.error(error)
+        }
     }
 
     // const addProduct = () => {
