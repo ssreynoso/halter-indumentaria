@@ -25,17 +25,17 @@ export const Footer = () => {
                     <ul>
                         <li>
                             <Button variant={'link'} className='h-4 text-md font-light p-0'>
-                                <Link href='/shop/remeras'>Remeras</Link>
+                                <Link href='/shop'>Remeras</Link>
                             </Button>
                         </li>
                         <li>
                             <Button variant={'link'} className='h-4 text-md font-light p-0'>
-                                <Link href='/shop/pantalones'>Pantalones</Link>
+                                <Link href='/shop'>Pantalones</Link>
                             </Button>
                         </li>
                         <li>
                             <Button variant={'link'} className='h-4 text-md font-light p-0'>
-                                <Link href='/shop/ropa-interior'>Ropa Interior</Link>
+                                <Link href='/shop'>Ropa Interior</Link>
                             </Button>
                         </li>
                     </ul>
@@ -46,11 +46,6 @@ export const Footer = () => {
                         <li>
                             <Button variant={'link'} className='h-4 text-md font-light p-0'>
                                 <Link href='/'>Nuestra historia</Link>
-                            </Button>
-                        </li>
-                        <li>
-                            <Button variant={'link'} className='h-4 text-md font-light p-0'>
-                                <Link href='/'>Preguntas frecuentes</Link>
                             </Button>
                         </li>
                     </ul>

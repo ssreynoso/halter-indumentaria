@@ -18,7 +18,6 @@ export const CartSection = ({ product }: { product: Product }) => {
         } else {
             toast({
                 title: 'Por favor, ingresá una cantidad mayor a 0.',
-                description: 'Que onda',
             })
         }
     }

@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { Carousel } from '@/components/ui/carousel'
+import Link from 'next/link'
 
 export const MainSection = () => {
     const images = [
@@ -30,7 +31,9 @@ export const MainSection = () => {
             <div className='absolute top-0 left-0 w-full h-full flex flex-col gap-6 justify-center items-center z-10'>
                 <h1 className="xl:text-6xl text-white font-bold">Halter Indumentaria</h1>
                 <p className='text-xl font-semibold'>AHORRÁ EN TU SIGUIENTE COMPRA, 25% EN EFECTIVO/15% TRANFERENCIA BANCARIA</p>
-                <Button className="text-xl p-6 rounded-full">Comprá indumentaria</Button>
+                <Button className="text-xl p-6 rounded-full">
+                    <Link href='/shop'>Comprá indumentaria</Link>
+                </Button>
             </div>
         </section>
     )

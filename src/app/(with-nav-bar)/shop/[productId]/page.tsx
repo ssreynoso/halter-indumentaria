@@ -32,7 +32,7 @@ const ProductPage = async ({ params }: { params: { productId: string }}) => {
                 )}
             </div>
             <div className='bg-white w-2 h-full absolute mx-auto top-0 left-1/2 translate-x-[-50%]'></div>
-            <div className='relative h-full flex flex-col justify-between'>
+            <div className='relative h-full flex flex-col justify-end gap-12'>
                 <div className='flex flex-col gap-4'>
                     { (product) ? (
                         <>
@@ -41,7 +41,6 @@ const ProductPage = async ({ params }: { params: { productId: string }}) => {
                                 <Badge>{product.category}</Badge>
                             </div>
                             <h3 className='text-5xl font-bold'>{product.name}</h3>
-                            <p className='w-2/3 text-lg'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis temporibus tempore ab tempora quis ducimus consequatur asperiores eum modi.</p>
                         </>
                     ) : (
                         <>
@@ -50,11 +49,6 @@ const ProductPage = async ({ params }: { params: { productId: string }}) => {
                                 <Skeleton className='rounded-xl w-20 h-4' />
                             </div>
                             <Skeleton className='w-1/2 h-8' />
-                            <Skeleton className='w-2/3 h-4' />
-                            <Skeleton className='w-1/3 h-4' />
-                            <Skeleton className='w-2/3 h-4' />
-                            <Skeleton className='w-1/3 h-4' />
-                            <Skeleton className='w-1/3 h-4' />
                         </>
                     )}
                 </div>

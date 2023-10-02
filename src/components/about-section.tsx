@@ -8,7 +8,7 @@ export const AboutSection = () => {
             <Separator />
             <section id="about" className="my-12 flex flex-col justify-center items-center gap-12">
                 <p className="text-2xl text-center w-3/5">
-                    Comenzá a llenar tu carrito con nuestras remeras, buzos, jeans y muchos mas! Recorda que si superas
+                    Comenzá a llenar tu carrito con nuestras remeras, buzos, jeans y muchos mas! Recordá que si superas
                     $30.000 tenes envio gratis!
                 </p>
                 <Button className="text-xl p-6 rounded-full">Empieza a comprar</Button>

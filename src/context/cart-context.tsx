@@ -1,5 +1,6 @@
 // contexts/CartContext.js
 'use client'
+import { useToast } from '@/components/ui/use-toast'
 import { Product } from '@/types/utils'
 import { PropsWithChildren, createContext, useContext, useState } from 'react'
 
@@ -19,12 +20,16 @@ const CartContext = createContext<IAppContextProps>({
 
 export const CartProvider = ({ children }: PropsWithChildren) => {
     const [cartProducts, setCartProducts] = useState<{ product: Product; quantity: number }[]>([])
+    const { toast } = useToast()
 
     const AddProduct = (newProduct: Product, quantity = 1) => {
         const existingProduct = cartProducts.find((value) => value.product.id === newProduct.id)
 
         if (existingProduct) {
-            ChangeQuantity(existingProduct.product.id, true)
+            toast({
+                title: 'Ya tenés este producto en el carrito 😇',
+                // description: 'Que onda',
+            })
         } else {
             setCartProducts((lastProducts) => {
                 const newProducts = [...lastProducts]
