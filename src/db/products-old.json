@@ -2,7 +2,7 @@
     "products": [
         {
             "id": "bermuda-azul",
-            "price": 7990,
+            "price": 9400,
             "genre": "hombre",
             "category": "bermuda",
             "name": "Bermuda Azul",
@@ -10,74 +10,74 @@
         },
         {
             "id": "bermuda-jean",
-            "price": 7990,
+            "price": 10000,
             "genre": "hombre",
             "category": "bermuda",
-            "name": "Bermuda de Jean",
+            "name": "Bermuda Jean",
             "images": ["/halter/hombre/bermudas/jean1.jpg", "/halter/hombre/bermudas/jean2.jpg"]
         },
         {
-            "id": "bermuda-negra",
-            "price": 7990,
+            "id": "negra",
+            "price": 4000,
             "genre": "hombre",
             "category": "bermuda",
-            "name": "Bermuda Negra",
+            "name": "Negra",
             "images": ["/halter/hombre/bermudas/negra1.jpg"]
         },
         {
-            "id": "bermuda-underarmour-azul",
-            "price": 5990,
+            "id": "underarmour-azul",
+            "price": 4000,
             "genre": "hombre",
             "category": "bermuda",
-            "name": "Bermuda Under Armour Azul",
+            "name": "Under Armour Azul",
             "images": ["/halter/hombre/bermudas/underarmour-azul1.jpg"]
         },
         {
-            "id": "malla-celeste",
-            "price": 8990,
+            "id": "celeste",
+            "price": 4000,
             "genre": "hombre",
             "category": "malla",
-            "name": "Malla Celeste",
+            "name": "Celeste",
             "images": ["/halter/hombre/mallas/celeste.jpg"]
         },
         {
-            "id": "malla-amarillo-fluo",
-            "price": 8990,
+            "id": "amarillo-fluo",
+            "price": 4000,
             "genre": "hombre",
             "category": "malla",
-            "name": "Malla Amarillo Fluo",
+            "name": "Amarillo Fluo",
             "images": ["/halter/hombre/mallas/amarillo-fluo.jpg"]
         },
         {
-            "id": "malla-coral",
-            "price": 8990,
+            "id": "coral",
+            "price": 4000,
             "genre": "hombre",
             "category": "malla",
-            "name": "Malla Coral",
+            "name": "Coral",
             "images": ["/halter/hombre/mallas/coral.jpg"]
         },
         {
-            "id": "malla-marron",
-            "price": 8990,
+            "id": "marron",
+            "price": 4000,
             "genre": "hombre",
             "category": "malla",
-            "name": "Malla Marron",
+            "name": "Marron",
             "images": ["/halter/hombre/mallas/marron.jpg"]
         },
         {
-            "id": "malla-rojo",
-            "price": 8990,
+            "id": "rojo",
+            "price": 4000,
             "genre": "hombre",
             "category": "malla",
-            "name": "Malla Rojo",
+            "name": "Rojo",
             "images": ["/halter/hombre/mallas/rojo.jpg"]
         },
         {
-            "id": "remera-abercrombie-azul",
-            "price": 5790,
+            "id": "abercrombie-azul",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Abercrombie Azul",
+            "name": "Abercrombie Azul",
             "images": [
                 "/halter/hombre/remeras/aber-azul1.jpg",
                 "/halter/hombre/remeras/aber-azul2.jpg",
@@ -85,11 +85,11 @@
             ]
         },
         {
-            "id": "remera-abercrombie-blanco",
-            "price": 5790,
+            "id": "abercrombie-blanco",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Abercrombie Blanco",
+            "name": "Abercrombie Blanco",
             "images": [
                 "/halter/hombre/remeras/aber-blanco1.jpg",
                 "/halter/hombre/remeras/aber-blanco2.jpg",
@@ -97,11 +97,11 @@
             ]
         },
         {
-            "id": "remera-abercrombie-bordo",
-            "price": 5790,
+            "id": "abercrombie-bordo",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Abercrombie Bordo",
+            "name": "Abercrombie Bordo",
             "images": [
                 "/halter/hombre/remeras/aber-bordo1.jpg",
                 "/halter/hombre/remeras/aber-bordo2.jpg",
@@ -109,11 +109,11 @@
             ]
         },
         {
-            "id": "remera-abercrombie-gris-a",
-            "price": 5790,
+            "id": "abercrombie-gris-a",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Abercrombie Gris A",
+            "name": "Abercrombie Gris A",
             "images": [
                 "/halter/hombre/remeras/aber-gris1.jpg",
                 "/halter/hombre/remeras/aber-gris2.jpg",
@@ -121,11 +121,11 @@
             ]
         },
         {
-            "id": "remera-abercrombie-gris-b",
-            "price": 5790,
+            "id": "abercrombie-gris-b",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Abercrombie Gris B",
+            "name": "Abercrombie Gris B",
             "images": [
                 "/halter/hombre/remeras/aber-grisb1.jpg",
                 "/halter/hombre/remeras/aber-grisb2.jpg",
@@ -133,11 +133,11 @@
             ]
         },
         {
-            "id": "remera-abercrombie-gris-c",
-            "price": 5790,
+            "id": "abercrombie-gris-c",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Abercrombie Gris C",
+            "name": "Abercrombie Gris C",
             "images": [
                 "/halter/hombre/remeras/aber-grisc1.jpg",
                 "/halter/hombre/remeras/aber-grisc2.jpg",
@@ -145,8 +145,8 @@
             ]
         },
         {
-            "id": "remera-abercrombie-roja",
-            "price": 5790,
+            "id": "abercrombie-roja",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
             "name": "Abercrombie Roja",
@@ -157,19 +157,19 @@
             ]
         },
         {
-            "id": "remera-abercrombie-rosa",
-            "price": 5790,
+            "id": "abercrombie-rosa",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Abercrombie Rosa",
+            "name": "Abercrombie Rosa",
             "images": ["/halter/hombre/remeras/aber-rosa1.jpg", "/halter/hombre/remeras/aber-rosa2.jpg"]
         },
         {
-            "id": "remera-amarilla",
-            "price": 5790,
+            "id": "amarilla",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Amarilla",
+            "name": "Amarilla",
             "images": [
                 "/halter/hombre/remeras/amarilla1.jpg",
                 "/halter/hombre/remeras/amarilla2.jpg",
@@ -177,19 +177,19 @@
             ]
         },
         {
-            "id": "remera-azul",
-            "price": 5790,
+            "id": "azul",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Azul",
+            "name": "Azul",
             "images": ["/halter/hombre/remeras/azul.jpg", "/halter/hombre/remeras/azul2.jpg"]
         },
         {
-            "id": "remera-gris",
-            "price": 5790,
+            "id": "gris",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Gris",
+            "name": "Gris",
             "images": [
                 "/halter/hombre/remeras/gris1.jpg",
                 "/halter/hombre/remeras/gris2.jpg",
@@ -197,11 +197,11 @@
             ]
         },
         {
-            "id": "remera-hollister-a",
-            "price": 6790,
+            "id": "hollister-a",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Hollister A",
+            "name": "Hollister A",
             "images": [
                 "/halter/hombre/remeras/hollister-a1.jpg",
                 "/halter/hombre/remeras/hollister-a2.jpg",
@@ -209,11 +209,11 @@
             ]
         },
         {
-            "id": "remera-hollister-b",
-            "price": 6790,
+            "id": "hollister-b",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Hollister B",
+            "name": "Hollister B",
             "images": [
                 "/halter/hombre/remeras/hollister-b1.jpg",
                 "/halter/hombre/remeras/hollister-b2.jpg",
@@ -221,11 +221,11 @@
             ]
         },
         {
-            "id": "remera-hollister-c",
-            "price": 6790,
+            "id": "hollister-c",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Hollister C",
+            "name": "Hollister C",
             "images": [
                 "/halter/hombre/remeras/hollister-c1.jpg",
                 "/halter/hombre/remeras/hollister-c2.jpg",
@@ -233,11 +233,11 @@
             ]
         },
         {
-            "id": "remera-hollister-d",
-            "price": 6790,
+            "id": "hollister-d",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Hollister D",
+            "name": "Hollister D",
             "images": [
                 "/halter/hombre/remeras/hollister-d1.jpg",
                 "/halter/hombre/remeras/hollister-d2.jpg",
@@ -245,22 +245,22 @@
             ]
         },
         {
-            "id": "remera-lacoste-blanca",
-            "price": 5500,
+            "id": "lacoste-blanca",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Lacoste Blanca",
+            "name": "Lacoste Blanca",
             "images": [
                 "/halter/hombre/remeras/lacoste-blanca1.jpg",
                 "/halter/hombre/remeras/lacoste-blanca2.jpg"
             ]
         },
         {
-            "id": "remera-lacoste-bordo",
-            "price": 5790,
+            "id": "lacoste-bordo",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Lacoste Bordo",
+            "name": "Lacoste Bordo",
             "images": [
                 "/halter/hombre/remeras/lacoste-bordo.jpg",
                 "/halter/hombre/remeras/lacoste-bordo2.jpg",
@@ -268,11 +268,11 @@
             ]
         },
         {
-            "id": "remera-lacoste-negra",
-            "price": 5790,
+            "id": "lacoste-negra",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Lacoste Negra",
+            "name": "Lacoste Negra",
             "images": [
                 "/halter/hombre/remeras/lacoste-negra1.jpg",
                 "/halter/hombre/remeras/lacoste-negra2.jpg",
@@ -280,11 +280,11 @@
             ]
         },
         {
-            "id": "remera-penguin-blanca",
-            "price": 5790,
+            "id": "penguin-blanca",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Penguin Blanca",
+            "name": "Penguin Blanca",
             "images": [
                 "/halter/hombre/remeras/peng-blanca1.jpg",
                 "/halter/hombre/remeras/peng-blanca2.jpg",
@@ -292,11 +292,11 @@
             ]
         },
         {
-            "id": "remera- penguin-bordo",
-            "price": 5790,
+            "id": "penguin-bordo",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Penguin Bordo",
+            "name": "Penguin Bordo",
             "images": [
                 "/halter/hombre/remeras/peng-bordo.jpg",
                 "/halter/hombre/remeras/peng-bordo2.jpg",
@@ -304,11 +304,11 @@
             ]
         },
         {
-            "id": "remera-penguin-gris",
-            "price": 5790,
+            "id": "penguin-gris",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Penguin Gris",
+            "name": "Penguin Gris",
             "images": [
                 "/halter/hombre/remeras/peng-gris.jpg",
                 "/halter/hombre/remeras/peng-gris2.jpg",
@@ -316,11 +316,11 @@
             ]
         },
         {
-            "id": "remera-penguin-negra",
-            "price": 5790,
+            "id": "penguin-negra",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Penguin Negra",
+            "name": "Penguin Negra",
             "images": [
                 "/halter/hombre/remeras/peng-negra1.jpg",
                 "/halter/hombre/remeras/peng-negra2.jpg",
@@ -328,11 +328,11 @@
             ]
         },
         {
-            "id": "remera-polo-blanca",
-            "price": 5790,
+            "id": "polo-blanca",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Polo Blanca",
+            "name": "Polo Blanca",
             "images": [
                 "/halter/hombre/remeras/polo-blanca1.jpg",
                 "/halter/hombre/remeras/polo-blanca2.jpg",
@@ -340,11 +340,11 @@
             ]
         },
         {
-            "id": "remera-polo-bordo",
-            "price": 5790,
+            "id": "polo-bordo",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Polo Bordo",
+            "name": "Polo Bordo",
             "images": [
                 "/halter/hombre/remeras/polo-bordo1.jpg",
                 "/halter/hombre/remeras/polo-bordo2.jpg",
@@ -352,19 +352,19 @@
             ]
         },
         {
-            "id": "remera-polo-gris",
-            "price": 5790,
+            "id": "polo-gris",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Polo Gris",
+            "name": "Polo Gris",
             "images": ["/halter/hombre/remeras/polo-gris1.jpg", "/halter/hombre/remeras/polo-gris2.jpg"]
         },
         {
-            "id": "remera-tommy-negra",
-            "price": 5790,
+            "id": "tommy-negra",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Tommy Negra",
+            "name": "Tommy Negra",
             "images": [
                 "/halter/hombre/remeras/tommy-negra1.jpg",
                 "/halter/hombre/remeras/tommy-negra2.jpg",
@@ -372,19 +372,19 @@
             ]
         },
         {
-            "id": "remera-underarmour-blanca",
-            "price": 5790,
+            "id": "underarmour-blanca",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Under Armour Blanca",
+            "name": "Under Armour Blanca",
             "images": ["/halter/hombre/remeras/under-blanca.jpg"]
         },
         {
-            "id": "remera-underarmour-bordo",
-            "price": 5790,
+            "id": "underarmour-bordo",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Under Armour Bordo",
+            "name": "Under Armour Bordo",
             "images": [
                 "/halter/hombre/remeras/under-bordo1.jpg",
                 "/halter/hombre/remeras/under-bordo2.jpg",
@@ -392,11 +392,11 @@
             ]
         },
         {
-            "id": "remera-underarmour-negra",
-            "price": 5790,
+            "id": "underarmour-negra",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Under Armour Negra",
+            "name": "Under Armour Negra",
             "images": [
                 "/halter/hombre/remeras/under-negra1.jpg",
                 "/halter/hombre/remeras/under-negra2.jpg",
@@ -404,11 +404,11 @@
             ]
         },
         {
-            "id": "remera underarmour-negra-b",
-            "price": 5790,
+            "id": "underarmour-negra-b",
+            "price": 4000,
             "genre": "hombre",
             "category": "remera",
-            "name": "Remera Under Armour Negra B",
+            "name": "Under Armour Negra B",
             "images": [
                 "/halter/hombre/remeras/under-negrab1.jpg",
                 "/halter/hombre/remeras/under-negrab2.jpg",
@@ -416,11 +416,11 @@
             ]
         },
         {
-            "id": "buzo-blanco",
-            "price": 9190,
+            "id": "blanco",
+            "price": 4000,
             "genre": "hombre",
             "category": "buzo",
-            "name": "Buzo Blanco",
+            "name": "Blanco",
             "images": [
                 "/halter/hombre/buzos/blanco1.jpg",
                 "/halter/hombre/buzos/blanco2.jpg",
@@ -428,11 +428,11 @@
             ]
         },
         {
-            "id": "buzo-gris",
-            "price": 9190,
+            "id": "gris",
+            "price": 4000,
             "genre": "hombre",
             "category": "buzo",
-            "name": "Buzo Gris",
+            "name": "Gris",
             "images": [
                 "/halter/hombre/buzos/gris1.jpg",
                 "/halter/hombre/buzos/gris2.jpg",
@@ -440,11 +440,11 @@
             ]
         },
         {
-            "id": "buzo-gris-b",
-            "price": 9190,
+            "id": "gris-b",
+            "price": 4000,
             "genre": "hombre",
             "category": "buzo",
-            "name": "Buzo GrisB",
+            "name": "GrisB",
             "images": [
                 "/halter/hombre/buzos/grisb1.jpg",
                 "/halter/hombre/buzos/grisb2.jpg",
@@ -452,11 +452,11 @@
             ]
         },
         {
-            "id": "buzo-gris-cap",
-            "price": 9190,
+            "id": "gris-cap",
+            "price": 4000,
             "genre": "hombre",
             "category": "buzo",
-            "name": "Buzo GrisCap",
+            "name": "GrisCap",
             "images": [
                 "/halter/hombre/buzos/gris-cap1.jpg",
                 "/halter/hombre/buzos/gris-cap2.jpg",
@@ -464,11 +464,11 @@
             ]
         },
         {
-            "id": "buzo-negro",
-            "price": 9190,
+            "id": "negro",
+            "price": 4000,
             "genre": "hombre",
             "category": "buzo",
-            "name": "Buzo Negro",
+            "name": "Negro",
             "images": [
                 "/halter/hombre/buzos/negro1.jpg",
                 "/halter/hombre/buzos/negro2.jpg",
@@ -476,11 +476,11 @@
             ]
         },
         {
-            "id": "buzo-negro-b",
-            "price": 9190,
+            "id": "negro-b",
+            "price": 4000,
             "genre": "hombre",
             "category": "buzo",
-            "name": "Buzo NegroB",
+            "name": "NegroB",
             "images": [
                 "/halter/hombre/buzos/negrob1.jpg",
                 "/halter/hombre/buzos/negrob2.jpg",
@@ -488,11 +488,11 @@
             ]
         },
         {
-            "id": "buzo-rosa",
-            "price": 9190,
+            "id": "rosa",
+            "price": 4000,
             "genre": "hombre",
             "category": "buzo",
-            "name": "Buzo Rosa",
+            "name": "Rosa",
             "images": [
                 "/halter/hombre/buzos/rosa1.jpg",
                 "/halter/hombre/buzos/rosa2.jpg",
@@ -500,11 +500,11 @@
             ]
         },
         {
-            "id": "boxer-blanca",
-            "price": 6490,
+            "id": "blanca",
+            "price": 4000,
             "genre": "hombre",
             "category": "ropa-interior",
-            "name": "Boxer Blanca",
+            "name": "Blanca",
             "images": [
                 "/halter/hombre/ropa-interior/blanca1.jpg",
                 "/halter/hombre/ropa-interior/blanca2.jpg",
@@ -512,11 +512,11 @@
             ]
         },
         {
-            "id": "boxer-negra",
-            "price": 6490,
+            "id": "negra",
+            "price": 4000,
             "genre": "hombre",
             "category": "ropa-interior",
-            "name": "Boxer Negra",
+            "name": "Negra",
             "images": [
                 "/halter/hombre/ropa-interior/negra1.jpg",
                 "/halter/hombre/ropa-interior/negra2.jpg",
@@ -524,44 +524,44 @@
             ]
         },
         {
-            "id": "sweatter-gris",
-            "price": 7990,
+            "id": "gris",
+            "price": 4000,
             "genre": "hombre",
             "category": "sweatter",
-            "name": "Sweatter Gris",
+            "name": "Gris",
             "images": ["/halter/hombre/sweatters/gris1.jpg", "/halter/hombre/sweatters/gris2.jpg"]
         },
         {
-            "id": "sweatter-gris-b",
-            "price": 7990,
+            "id": "gris-b",
+            "price": 4000,
             "genre": "hombre",
             "category": "sweatter",
             "name": "Gris B",
             "images": ["/halter/hombre/sweatters/grisb1.jpg", "/halter/hombre/sweatters/grisb2.jpg"]
         },
         {
-            "id": "sweatter-negro",
-            "price": 7990,
+            "id": "negro",
+            "price": 4000,
             "genre": "hombre",
             "category": "sweatter",
-            "name": "Sweatter Negro",
+            "name": "Negro",
             "images": ["/halter/hombre/sweatters/negro1.jpg", "/halter/hombre/sweatters/negro2.jpg"]
         },
         {
-            "id": "sweatter-zinc",
-            "price": 7990,
+            "id": "zinc",
+            "price": 4000,
             "genre": "hombre",
             "category": "sweatter",
-            "name": "Sweatter Zinc",
+            "name": "Zinc",
             "images": ["/halter/hombre/sweatters/zinc1.jpg", "/halter/hombre/sweatters/zinc2.jpg"]
         },
 
         {
-            "id": "pantalon-gris",
-            "price": 9990,
+            "id": "gris",
+            "price": 4000,
             "genre": "hombre",
             "category": "pantalon",
-            "name": "Pantalon Gris",
+            "name": "Gris",
             "images": [
                 "/halter/hombre/pantalones/gris-a1.jpg",
                 "/halter/hombre/pantalones/gris-a2.jpg",
@@ -570,11 +570,11 @@
             ]
         },
         {
-            "id": "pantalon-gris-b",
-            "price": 9990,
+            "id": "gris-b",
+            "price": 4000,
             "genre": "hombre",
             "category": "pantalon",
-            "name": "Pantalon Gris B",
+            "name": "Gris B",
             "images": [
                 "/halter/hombre/pantalones/gris-b1.jpg",
                 "/halter/hombre/pantalones/gris-b2.jpg",
@@ -584,7 +584,7 @@
         },
         {
             "id": "jean",
-            "price": 10990,
+            "price": 4000,
             "genre": "hombre",
             "category": "pantalon",
             "name": "Jean",
@@ -596,7 +596,7 @@
         },
         {
             "id": "jean-b",
-            "price": 10990,
+            "price": 4000,
             "genre": "hombre",
             "category": "pantalon",
             "name": "Jean B",
@@ -608,7 +608,7 @@
         },
         {
             "id": "jean-c",
-            "price": 10990,
+            "price": 4000,
             "genre": "hombre",
             "category": "jogging",
             "name": "Jean C",
@@ -621,7 +621,7 @@
         },
         {
             "id": "jean-d",
-            "price": 10990,
+            "price": 4000,
             "genre": "hombre",
             "category": "jogging",
             "name": "Jean D",
@@ -633,7 +633,7 @@
         },
         {
             "id": "jogging",
-            "price": 10990,
+            "price": 4000,
             "genre": "hombre",
             "category": "jogging",
             "name": "Jogging",
@@ -645,7 +645,7 @@
         },
         {
             "id": "jogging-azul",
-            "price": 10990,
+            "price": 4000,
             "genre": "hombre",
             "category": "jogging",
             "name": "Jogging Azul",
@@ -657,7 +657,7 @@
         },
         {
             "id": "jogging-negro",
-            "price": 10990,
+            "price": 4000,
             "genre": "hombre",
             "category": "jogging",
             "name": "Negro",
@@ -668,51 +668,51 @@
             ]
         },
         {
-            "id": "remera-blanca",
-            "price": 5490,
+            "id": "blanca",
+            "price": 4000,
             "genre": "mujer",
             "category": "remera",
-            "name": "Remera Blanca",
+            "name": "Blanca",
             "images": ["/halter/mujer/remeras/blanca1.jpg", "/halter/mujer/remeras/blanca2.jpg"]
         },
         {
-            "id": "remera-gris",
-            "price": 5490,
+            "id": "gris",
+            "price": 4000,
             "genre": "mujer",
             "category": "remera",
-            "name": "Remera Gris",
+            "name": "Gris",
             "images": ["/halter/mujer/remeras/gris1.jpg", "/halter/mujer/remeras/gris2.jpg"]
         },
         {
-            "id": "remera-negra",
-            "price": 5490,
+            "id": "negra",
+            "price": 4000,
             "genre": "mujer",
             "category": "remera",
-            "name": "Remera Negra",
+            "name": "Negra",
             "images": ["/halter/mujer/remeras/negra1.jpg", "/halter/mujer/remeras/negra2.jpg"]
         },
         {
-            "id": "remera-rosa",
-            "price": 5490,
+            "id": "rosa",
+            "price": 4000,
             "genre": "mujer",
             "category": "remera",
-            "name": "Remera Rosa",
+            "name": "Rosa",
             "images": ["/halter/mujer/remeras/rosa1.jpg", "/halter/mujer/remeras/rosa2.jpg"]
         },
         {
-            "id": "remera-zinc",
-            "price": 5490,
+            "id": "zinc",
+            "price": 4000,
             "genre": "mujer",
             "category": "remera",
-            "name": "Remera Zinc",
+            "name": "Zinc",
             "images": ["/halter/mujer/remeras/zinc1.jpg"]
         },
         {
-            "id": "conjunto-ck-blanca",
-            "price": 7490,
+            "id": "blanca",
+            "price": 4000,
             "genre": "mujer",
             "category": "ropa-interior",
-            "name": "Conjunto CK Blanca",
+            "name": "Blanca",
             "images": [
                 "/halter/mujer/ropainterior/blanca1.jpg",
                 "/halter/mujer/ropainterior/blanca2.jpg",
@@ -720,11 +720,11 @@
             ]
         },
         {
-            "id": "conjunto-ck-gris",
-            "price": 7490,
+            "id": "gris",
+            "price": 4000,
             "genre": "mujer",
             "category": "ropa-interior",
-            "name": "Conjunto CK Gris",
+            "name": "Gris",
             "images": [
                 "/halter/mujer/ropainterior/gris1.jpg",
                 "/halter/mujer/ropainterior/gris2.jpg",

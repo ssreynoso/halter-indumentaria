@@ -9,6 +9,7 @@ import { Button } from './ui/button'
 // import { ModeToggle } from '@/components/dark-mode-toggle-button'
 import { DropdownNavbarMenu } from '@/components/dropdown-navbar-menu'
 import { NavBarOption } from '@/types/utils'
+import { Cart } from './cart'
 // import { ChangeTheme } from './change-theme'
 
 const NavOptions = ({ options }: { options: NavBarOption[] }) => (
@@ -41,6 +42,7 @@ export const NavBar = () => {
     }
 
     useEventListener('scroll', onScroll)
+    // useEventListener('', onScroll)
 
     return (
         <nav
@@ -62,6 +64,7 @@ export const NavBar = () => {
                 <DropdownNavbarMenu options={navOptions} className='xl:hidden' />
                 {/* <ModeToggle className='absolute right-0 hidden xl:inline-flex'/> */}
                 {/* <ChangeTheme /> */}
+                <Cart />
             </div>
         </nav>
     )

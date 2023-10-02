@@ -2,12 +2,13 @@ export type NavBarOption = { label: string, value: string }
 
 export type Product = {
     id: string,
+    price: number,
     name: string
     images: string[]
     genre: Genre
-    garment: Garment
+    category: Category
 }
 
 export type Genre = 'hombre' | 'mujer'
 
-export type Garment = 'bermudas' | 'remeras' | 'mallas' | 'buzos' | 'ropaInterior' | 'sweatters' | 'pantalones'
+export type Category = 'bermuda' | 'remera' | 'malla' | 'buzo' | 'ropa-interior' | 'sweatter' | 'pantalon'

@@ -12,7 +12,7 @@ export const MainSection = () => {
     ]
 
     return (
-        <section className='h-screen'>
+        <section className='h-screen relative'>
             <div className='absolute w-full h-screen-nav-bar top-0 z-0'>
                 <Carousel
                     className='h-screen [&>*]:basis-1/3 opacity-25'

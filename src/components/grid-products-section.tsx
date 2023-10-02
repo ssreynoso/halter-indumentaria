@@ -37,9 +37,7 @@ export const GridProductsSection = () => {
     const [allProducts, setAllProducts] = useState<Product[]>([])
 
     useEffect(() => {
-        console.log('Hago get con ', limit, offset)
-
-        getAllClothes(limit, offset)
+        getAllClothes(false, limit, offset)
             .then((products) => {
                 const newProducts = [...allProducts]
                 newProducts.push(...products)
@@ -53,7 +51,7 @@ export const GridProductsSection = () => {
             <div className="my-12 max-w-7xl mx-auto min-h-screen">
                 <div className="grid grid-cols-3 auto-rows-[350px] gap-4 mx-auto w-5/6 min-h-[500px]">
                     { allProducts.map((product) => (
-                        <ProductItem key={`${product.genre}-${product.garment}-${product.id}`} item={product} />
+                        <ProductItem key={`${product.genre}-${product.category}-${product.id}`} item={product} />
                     ))}
                 </div>
                 <Viewer callback={() => setOffset(value => value + limit)}/>

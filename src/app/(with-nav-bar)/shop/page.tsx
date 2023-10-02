@@ -4,7 +4,7 @@ import React from 'react'
 
 const ShopPage = () => {
     return (
-        <div className="h-screen-nav-bar w-full mt-[var(--nav-bar-height)]">
+        <div className="w-full mt-[var(--nav-bar-height)]">
             <ShopFirstSection />
             <GridProductsSection />
         </div>

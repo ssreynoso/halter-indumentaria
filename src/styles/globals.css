@@ -100,4 +100,11 @@
         @apply drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
         /* -webkit-text-stroke: 4px black; */
     }
+
+    .bg-dots {
+        background-image: radial-gradient(#f4f4f0 9%,transparent 9%),radial-gradient(#f4f4f0 9%,transparent 9%);
+        background-color: black;
+        background-position: 0 0,8px 8px;
+        background-size: 16px 16px;
+    }
 }

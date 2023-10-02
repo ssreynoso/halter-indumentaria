@@ -1,25 +1,35 @@
-import { Garment, Genre, Product } from '@/types/utils'
+import { Category, Genre, Product } from '@/types/utils'
 import products from '@/db/products.json'
 
-export const getClothes = async (genre: Genre, garment: Garment) => {
-    const clothes = await products.products[genre]
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    //@ts-ignore
-    const clothes2 = clothes[garment] as Product[]
-    clothes2.forEach((item) => {
-        item.garment = garment
-        item.genre = genre
-    })
+export const getAllClothes = async (all = true, limit = 10, offset = 0): Promise<Product[]> => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const clothes = (await products.products as any) as Product[]
+
+    if (all) {
+        return clothes
+    }
+
+    return clothes.slice(offset, offset+limit)
+}
+
+export const getClothes = async (genre: Genre, category: Category) => {
+    const clothes = await getAllClothes()
+    const clothes2 = clothes.filter(c => (c.genre === genre && c.category === category))
     return clothes2
+}
+
+export const getClothe = async (id: string) => {
+    const products = await getAllClothes()
+    return products.find(value => value.id === id)
 }
 
 export const getTShirts = async () => {
     const tShirts: Product[] = []
 
-    let clothesMan = await getClothes('hombre', 'remeras') as Product[]
+    let clothesMan = await getClothes('hombre', 'remera') as Product[]
     clothesMan = clothesMan.slice(0, 5)
 
-    let clothesWoman = await getClothes('mujer', 'remeras') as Product[]
+    let clothesWoman = await getClothes('mujer', 'remera') as Product[]
     clothesWoman = clothesWoman.slice(0, 5)
 
     for(let i = 0; i < 5; i++) {
@@ -28,32 +38,4 @@ export const getTShirts = async () => {
     }
 
     return tShirts
-}
-
-export const getAllClothes = async (limit: number, offset: number) => {
-    const clothes: Product[] = []
-
-    let c: Product[] = []
-    c = await getClothes('hombre', 'bermudas')
-    clothes.push(...c)
-    c = await getClothes('hombre', 'buzos')
-    clothes.push(...c)
-    c = await getClothes('hombre', 'mallas')
-    clothes.push(...c)
-    c = await getClothes('hombre', 'pantalones')
-    clothes.push(...c)
-    c = await getClothes('hombre', 'remeras')
-    clothes.push(...c)
-    c = await getClothes('hombre', 'ropaInterior')
-    clothes.push(...c)
-    c = await getClothes('hombre', 'sweatters')
-    clothes.push(...c)
-    c = await getClothes('mujer', 'remeras')
-    clothes.push(...c)
-    c = await getClothes('mujer', 'ropaInterior')
-    clothes.push(...c)
-
-    console.log(clothes.length)
-    console.log('get con', limit, offset)
-    return clothes.slice(offset, offset+limit)
 }
