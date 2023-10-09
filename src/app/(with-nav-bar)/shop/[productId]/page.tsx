@@ -41,6 +41,7 @@ const ProductPage = async ({ params }: { params: { productId: string }}) => {
                                 <Badge>{product.category}</Badge>
                             </div>
                             <h3 className='text-5xl font-bold'>{product.name}</h3>
+                            <p className='text-3xl font-bold'>$ {product.price}</p>
                         </>
                     ) : (
                         <>

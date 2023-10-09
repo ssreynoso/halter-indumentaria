@@ -8,27 +8,24 @@ import { Product } from '@/types/utils'
 import { useNearScreen } from '@/hooks/use-near-screen'
 import { ProductItem } from './product-item'
 
-const Viewer = ({callback}: { callback: () => void }) => {
+const Viewer = ({ callback }: { callback: () => void }) => {
     const ref = useRef<HTMLDivElement | null>(null)
 
     const { isNearScreen } = useNearScreen({
-        distance   : '200px',
+        distance: '200px',
         externalRef: ref,
-        once       : false,
+        once: false,
     })
 
-    const debounceHandleNextPage = useCallback(
-        debounce(callback),
-        []
-    )
+    const debounceHandleNextPage = useCallback(debounce(callback), [])
 
     useEffect(() => {
-        if (isNearScreen){
+        if (isNearScreen) {
             debounceHandleNextPage()
         }
     }, [debounceHandleNextPage, isNearScreen])
 
-    return <div ref={ref} className='w-full h-3'></div>
+    return <div ref={ref} className="w-full h-3"></div>
 }
 
 export const GridProductsSection = () => {
@@ -37,12 +34,11 @@ export const GridProductsSection = () => {
     const [allProducts, setAllProducts] = useState<Product[]>([])
 
     useEffect(() => {
-        getAllClothes(false, limit, offset)
-            .then((products) => {
-                const newProducts = [...allProducts]
-                newProducts.push(...products)
-                setAllProducts(newProducts)    
-            })
+        getAllClothes(false, limit, offset).then((products) => {
+            const newProducts = [...allProducts]
+            newProducts.push(...products)
+            setAllProducts(newProducts)
+        })
     }, [offset])
 
     return (
@@ -50,11 +46,11 @@ export const GridProductsSection = () => {
             <Separator />
             <div className="my-12 max-w-7xl mx-auto min-h-screen">
                 <div className="grid grid-cols-3 auto-rows-[350px] gap-4 mx-auto w-5/6 min-h-[500px]">
-                    { allProducts.map((product) => (
+                    {allProducts.map((product) => (
                         <ProductItem key={`${product.genre}-${product.category}-${product.id}`} item={product} />
                     ))}
                 </div>
-                <Viewer callback={() => setOffset(value => value + limit)}/>
+                <Viewer callback={() => setOffset((value) => value + limit)} />
             </div>
         </>
     )
