@@ -45,7 +45,7 @@ export const FlexiButton = () => {
     return (
         <Popover>
             <PopoverTrigger asChild>
-                <Button variant='ghost' className='fixed right-4 bottom-10 w-10 h-10' >
+                <Button variant='ghost' className='fixed right-4 bottom-10 w-14 h-14' >
                     <Image src='/icon-192x192.png' fill alt='logo' />
                 </Button>
             </PopoverTrigger>
