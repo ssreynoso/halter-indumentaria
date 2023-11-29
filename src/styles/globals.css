@@ -54,6 +54,8 @@
 
         --secondary: rgb(39, 39, 42);
         --secondary-foreground: rgb(250, 250, 250);
+        --tertiary: rgb(32, 32, 32);
+        --tertiary-foreground: rgb(250, 250, 250);
 
         --muted: rgb(39, 39, 42);
         --muted-foreground: rgb(161, 161, 170);

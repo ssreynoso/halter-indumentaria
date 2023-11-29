@@ -30,6 +30,10 @@ const config: Config = {
                     DEFAULT: 'var(--secondary)',
                     foreground: 'var(--secondary-foreground)',
                 },
+                tertiary: {
+                    DEFAULT: 'var(--tertiary)',
+                    foreground: 'var(--tertiary-foreground)',
+                },
                 destructive: {
                     DEFAULT: 'var(--destructive)',
                     foreground: 'var(--destructive-foreground)',

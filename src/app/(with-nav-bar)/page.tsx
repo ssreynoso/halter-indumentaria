@@ -2,6 +2,7 @@ import { ClothesCarrouselSection } from '@/components/clothes-carousel-section'
 import { OurStorySection } from '@/components/our-story-section'
 import { AboutSection } from '@/components/about-section'
 import { MainSection } from '@/components/main-section'
+import { FlexiButton } from './flexi-widget'
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <AboutSection />
             <ClothesCarrouselSection />
             <OurStorySection />
+            <FlexiButton />
         </div>
     )
 }
