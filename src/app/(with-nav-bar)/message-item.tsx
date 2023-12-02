@@ -12,7 +12,7 @@ export const MessageItem = function ({ message }: MessageItemProps) {
     const sentByUser = message.sender === 1 // 1 es el usuario, 0 es el bot
     // const data = message.value.split('\n')
 
-    const velocity = 50
+    const velocity = 10
     const [visibleText, setVisibleText] = useState('')
 
     useEffect(() => {
@@ -55,8 +55,7 @@ export const MessageItem = function ({ message }: MessageItemProps) {
                         {txt}
                     </p>
                 ))} */}
-                <p className='break-keep'>
-                    {visibleText}
+                <p className='break-keep' dangerouslySetInnerHTML={{ __html: visibleText }}>
                 </p>
             </div>
         </div>

@@ -8,10 +8,83 @@ import { MessageItem } from './message-item'
 import { Input } from '@/components/ui/input'
 
 const machineMessages = [
-    'El mejor cliente de la empresa, basado en el número de pedidos realizados, es el cliente Santiago Pérez con 14 pedidos.\n\n¿Desea conocer más información sobre este cliente?',
-    'Email: sanper@example.com\nDirección: Calle 123\nCiudad: Bogotá\nPaís: Colombia',
-    'El último pedido realizado por Santiago Pérez fue el día 15 de septiembre de 2023.',
-    'En ese pedido se compraron 3 productos:\n\n- 1x Hamburguesa Triple Cheddar\n- 1x Bebida Coca Cola 1.5lt\n- 1x Papas Fritas.',
+    `<p>Para maximizar tu presupuesto de $180 y asegurarnos de que obtengas una variedad de opciones, aquí tienes algunas sugerencias: </p>
+
+    <h3 class="text-lg font-bold">Remeras:</h3>
+    <ul class="list-disc ml-6">
+        <li class="text-xs">
+            <span class="font-bold">Remera Casual de Algodón - $15:</span>
+            <p class="underline">https://halter-indumentaria/casual-algodon</p>
+        </li>
+        <li class="text-xs">
+            <span class="font-bold">Remera Estampada de Edición Limitada - $25:</span>
+            <p class="underline">https://halter-indumentaria/estampada-edicion-limitada</p>
+        </li>
+        <li class="text-xs">
+            <span class="font-bold">Pack de 3 Remeras Básicas - Oferta Especial $30:</span>
+            <p class="underline">https://halter-indumentaria/pack-3-basicas</p>
+        </li>
+    </ul>
+    
+    <h3 class="text-lg font-bold">Pantalones:</h3>
+    <ul class="list-disc ml-6">
+        <li class="text-xs">
+            <span class="font-bold">Jeans Clásicos - $40:</span>
+            <p class="underline">https://halter-indumentaria/jeans-clasicos</p>
+        </li>
+        <li class="text-xs">
+            <span class="font-bold">Pantalón Deportivo Multifuncional - $35:</span>
+            <p class="underline">https://halter-indumentaria/deportivo-multifuncional</p>
+        </li>
+        <li class="text-xs">
+            <span class="font-bold">Chinos Elegantes - $45:</span>
+            <p class="underline">https://halter-indumentaria/chinos-elegantes</p>
+        </li>
+    </ul>
+
+    <h3 class="text-lg font-bold">Ofertas Especiales:</h3>
+    <ul class="list-disc ml-6">
+        <li class="text-xs">
+            <span class="font-bold">Combo Exclusivo - Remera + Pantalón - $50:</span>
+            <p class="underline">https://halter-indumentaria/combo-exclusivo</p>
+        </li>
+        <li class="text-xs">
+            <span class="font-bold">Descuento del 20% en Compras Superiores a $100:</span>
+            <p class="underline">https://halter-indumentaria/descuento-20</p>
+        </li>
+    </ul>
+`,
+    `
+    <p>Los medios de pago aceptados son</p>
+    <ul class="list-disc ml-6">
+        <li>
+            <span>Tarjeta de Crédito</span>
+        </li>
+        <li>
+            <span>Tarjeta de Débito</span>
+        </li>
+        <li>
+            <span>Mercado Pago</span>
+        </li>
+    </ul>
+`,
+    '<p>Los envíos se realizan a través de Correo Argentino</p>',
+    `La guía de talles de las remeras es la siguiente:
+    <ul class="list-disc ml-6">
+        <li>
+            <span>S: 50cm x 70cm</span>
+        </li>
+        <li>
+            <span>M: 52cm x 72cm</span>
+        </li>
+        <li>
+            <span>L: 54cm x 74cm</span>
+        </li>
+        <li>
+            <span>XL: 56cm x 76cm</span>
+        </li>
+    </ul>
+    `
 ]
 
 export const FlexiButton = () => {
@@ -49,7 +122,7 @@ export const FlexiButton = () => {
                     <Image src='/icon-192x192.png' fill alt='logo' />
                 </Button>
             </PopoverTrigger>
-            <PopoverContent side='top' className='w-[500px] h-[400px] p-2 translate-x-[-12px]'>
+            <PopoverContent side='top' className='w-[500px] h-[70vh] p-2 translate-x-[-12px]'>
                 <div className="w-full h-full mx-auto flex flex-col gap-4">
                     <div
                         ref={container} 
